@@ -18,6 +18,10 @@ source myenv/bin/activate
 Install Dependencies
 pip install -r requirements.txt
 
+**Or install manually:**
+
+pip install langchain langchain-community langchain-groq groq rich python-dotenv requests
+
 **Setup API Key**
 
 Create a .env file in the project directory:
