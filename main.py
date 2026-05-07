@@ -108,8 +108,8 @@ def print_help():
     table.add_column("Example", style="dim green")
 
     commands = [
-        ("scan ports <ip>",         "TCP port scan (20–1024)",        "scan ports 192.168.1.1"),
-        ("deep scan <ip>",          "Port scan + banner grabbing",    "deep scan 192.168.1.1"),
+        ("scan ports <ip>",         "TCP port scan (20–1024)",        "scan ports 192.168.8.8"),
+        ("deep scan <ip>",          "Port scan + banner grabbing",    "deep scan 192.168.8.1"),
         ("ping <host>",             "ICMP ping test",                 "ping google.com"),
         ("traceroute <host>",       "Hop-by-hop trace",               "traceroute 8.8.8.8"),
         ("network info",            "Local network details",          "network info"),
